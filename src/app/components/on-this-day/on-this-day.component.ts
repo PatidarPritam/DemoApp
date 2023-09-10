@@ -31,7 +31,7 @@ export class OnThisDayComponent {
       this.displayData;
       console.log(this.displayData);
       console.log(this.data.births);
-      console.log(currentDate);
+      
      })
   }
 }
