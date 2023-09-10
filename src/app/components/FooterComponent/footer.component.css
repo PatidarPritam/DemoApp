@@ -1,0 +1,22 @@
+body{
+     /* margin: -10px; */
+     margin-left:20px;
+     margin-top: 20px;
+     margin-right: 20px;
+    
+    }
+footer {
+    background-color: #37475a; 
+    border-radius: 10px;
+    color: #fff; 
+    padding: 20px 0; 
+  }
+  
+  .footer-content {
+    text-align: center; 
+  }
+  
+  p {
+    margin: 0; 
+  }
+  
