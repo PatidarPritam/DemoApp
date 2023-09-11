@@ -1,1 +1,12 @@
 <p>aggregated-featured works!</p>
+
+
+<div>
+    <ul *ngFor="let item of displayData">
+        <li> <img src={{item.thumbnail}} alt="Image not found" width="50px" height="50px"> </li>
+             <li>{{item.name}}</li>
+              <li>{{item.description}}</li>
+              <li class="truncate-text">{{item.extract}}</li>
+    </ul>
+
+
