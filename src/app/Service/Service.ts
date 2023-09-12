@@ -41,4 +41,10 @@ getDeathData(currentDate:Date){
       
  }
 
+  getViewPage(name:string){
+   
+      return this._http.get('https://en.wikipedia.org/api/rest_v1/page/html/'+name,{responseType: 'text'})
+
+  }
+
 }

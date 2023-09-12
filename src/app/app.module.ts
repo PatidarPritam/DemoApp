@@ -10,7 +10,8 @@ import { AnnouncementComponent } from './components/announcement/announcement.co
 import { AggregatedFeaturedComponent } from './components/aggregated-featured/aggregated-featured.component';
 import { RecommendedListOfTopicsComponent } from './components/recommended-list-of-topics/recommended-list-of-topics.component';
 
-import {HttpClientModule} from  '@angular/common/http'; // change
+import {HttpClientModule} from  '@angular/common/http';
+import { ViewPageComponent } from './components/view-page/view-page.component'; // change
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +20,8 @@ import {HttpClientModule} from  '@angular/common/http'; // change
     OnThisDayComponent,
     AnnouncementComponent,
     AggregatedFeaturedComponent,
-    RecommendedListOfTopicsComponent
+    RecommendedListOfTopicsComponent,
+    ViewPageComponent
 ],
   imports: [
     BrowserModule,
