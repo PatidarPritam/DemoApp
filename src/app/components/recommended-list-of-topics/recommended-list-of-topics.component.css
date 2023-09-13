@@ -1,0 +1,16 @@
+p{
+    text-align: center;
+    font-weight: bold;
+    }
+a{
+    font-weight: bold;
+    color: purple;
+    text-decoration: none;
+    justify-content: flex-end;
+
+}
+li{
+    display: inline-block;
+    margin-right: 10px;
+    
+}
