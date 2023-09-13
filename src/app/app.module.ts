@@ -11,7 +11,8 @@ import { AggregatedFeaturedComponent } from './components/aggregated-featured/ag
 import { RecommendedListOfTopicsComponent } from './components/recommended-list-of-topics/recommended-list-of-topics.component';
 
 import {HttpClientModule} from  '@angular/common/http';
-import { ViewPageComponent } from './components/view-page/view-page.component'; // change
+import { ViewPageComponent } from './components/view-page/view-page.component';
+import { HomeComponent } from './components/home/home.component'; // change
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,7 +22,8 @@ import { ViewPageComponent } from './components/view-page/view-page.component'; 
     AnnouncementComponent,
     AggregatedFeaturedComponent,
     RecommendedListOfTopicsComponent,
-    ViewPageComponent
+    ViewPageComponent,
+    HomeComponent
 ],
   imports: [
     BrowserModule,

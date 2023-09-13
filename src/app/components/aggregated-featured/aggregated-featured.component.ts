@@ -20,7 +20,7 @@ import { ApiserviceService } from 'src/app/Service/Service';
     let currentDate=new Date();
     this._apiservice.getAggregated(currentDate).subscribe(res=>{
     this.data=res;
-    console.log(res);
+    // console.log(res);
    // console.log("article data",this.data.mostread.articles)
    
      for(let i=0;i<5;i++){

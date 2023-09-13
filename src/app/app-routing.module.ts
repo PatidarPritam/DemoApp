@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ViewPageComponent } from './components/view-page/view-page.component';
-//import { RecommendedListOfTopicsComponent } from './components/recommended-list-of-topics/recommended-list-of-topics.component';
+import { HomeComponent } from './components/home/home.component';
 
 const routes: Routes = [
 
@@ -9,10 +9,11 @@ const routes: Routes = [
     component:ViewPageComponent,
     path:'viewpage/:name'
    },
-  //  {
-  //   component:RecommendedListOfTopicsComponent,
-  //   path:''
-  //  }
+  
+  {
+    component:HomeComponent,
+    path:''
+  }
 
 ];
 
