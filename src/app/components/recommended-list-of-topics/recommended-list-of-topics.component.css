@@ -1,16 +1,31 @@
-p{
+body{
+    font-family: "Calibri";
+    font-weight: bold;
+    font-size: 1rem;
+    background-color:#f0f0f0;
     text-align: center;
+    padding: 20px; 
+}
+p{
     font-weight: bold;
-    }
-a{
-    font-weight: bold;
-    color: purple;
-    text-decoration: none;
-    justify-content: flex-end;
+    font-size: 1.2rem;
+}
 
-}
-li{
+.topic{
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 5px;
+    margin: 10px;
     display: inline-block;
-    margin-right: 10px;
-    
+    transition:background-color 0.3s ease-in-out;
 }
+ .topic a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+ }
+ .topic:hover{
+    background-color: #2980b9;
+ }

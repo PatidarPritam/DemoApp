@@ -2,7 +2,27 @@ p{
     padding-top: 10px;
     text-align: center;
     font-weight: bold;
+    font-family: "Calibri"
 }
 li{
     list-style-type: none;
+    font-family: "Calibri"
+
+}
+.container{
+    display: flex;
+    align-items: center;
+}
+.thumbnail{
+    margin-left: 20px;
+    flex: 1;
+    height: 50px;
+    width: 50px;
+    object-fit: contain;
+    
+}
+.content{
+    flex:2;
+    margin-right: 20px;
+    
 }

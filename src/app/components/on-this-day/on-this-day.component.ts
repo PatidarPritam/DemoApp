@@ -19,7 +19,6 @@ export class OnThisDayComponent {
     this.getDeathData();
    }
   getBirthData(){
-    //console.log("get birth data");
     let currentDate=new Date();
     this._apiservice.getBirthData(currentDate).subscribe(res=>{
     this.data=res;

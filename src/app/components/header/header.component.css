@@ -11,7 +11,6 @@ header {
     border-radius: 10px;
     color: #fff;
     padding: 10px 0; 
-    
   }
   
   nav ul {
@@ -22,6 +21,8 @@ header {
     display: inline; 
     margin-left: 10px;
     margin-right: 20px; 
+    font-family: "Calibri";
+    font-size: 1.2rem;
   }
   
   nav ul li a {
@@ -33,4 +34,9 @@ header {
   nav ul li a:hover {
     text-decoration: underline; 
   }
-  
+  /* nav ul li img{
+     background-size: cover; 
+    height:30px;
+    width: 80px;
+
+  } */

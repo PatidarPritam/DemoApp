@@ -20,7 +20,7 @@
 }
 .announcement{
     background-color: lightblue;
-    height: 330px; 
+    height: 280px; 
     width:400px; 
     overflow:auto;
     margin-left: 20px;
@@ -45,7 +45,7 @@
     /* height:200px ; */
     padding: 10px 0;
     border-radius: 10px;
-    margin-top:10px ;
+    margin-top:20px ;
     margin-left: 20px;
     margin-right: 20px;
 }

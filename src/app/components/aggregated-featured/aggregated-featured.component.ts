@@ -17,7 +17,7 @@ import { ApiserviceService } from 'src/app/Service/Service';
     this. getAggregated();
    }
    getAggregated(){
-    let currentDate=new Date();
+    let currentDate=new Date("2023-09-10");
     this._apiservice.getAggregated(currentDate).subscribe(res=>{
     this.data=res;
     // console.log(res);
