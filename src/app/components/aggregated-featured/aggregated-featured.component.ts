@@ -17,13 +17,11 @@ import { ApiserviceService } from 'src/app/Service/Service';
     this. getAggregated();
    }
    getAggregated(){
-    let currentDate=new Date("2023-09-10");
+    let currentDate=new Date();
     this._apiservice.getAggregated(currentDate).subscribe(res=>{
     this.data=res;
-    // console.log(res);
-   // console.log("article data",this.data.mostread.articles)
-   
-     for(let i=0;i<5;i++){
+    
+    for(let i=0;i<5;i++){
      let Aggregated={
         name:String,
         thumbnail:String,
@@ -38,9 +36,7 @@ import { ApiserviceService } from 'src/app/Service/Service';
       this.displayData.push(Aggregated);
     } 
       this.displayData;
-    //  console.log(this.displayData);
-
-  })
+    })
  }
 
 }

@@ -15,14 +15,12 @@ export class ViewPageComponent {
 
 ngOnInit(){
     this.route.params.subscribe(params=>{
-  //  console.log(params['name'])
     this.name=params['name']
     this.getViewPage(this.name);
   
   })
  }
   getViewPage(name:string){
-   // console.log("get view page data");
     this._apiservice.getViewPage(name).subscribe(res=>{
     this.data=res;
      })

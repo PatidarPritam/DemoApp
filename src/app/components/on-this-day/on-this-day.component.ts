@@ -22,7 +22,7 @@ export class OnThisDayComponent {
     let currentDate=new Date();
     this._apiservice.getBirthData(currentDate).subscribe(res=>{
     this.data=res;
-    //console.log(res);  
+    
     for(let i=0;i<2;i++){
       let personVo = {
         name:String,
@@ -36,14 +36,9 @@ export class OnThisDayComponent {
        this.displayData.push(personVo);
    }
       this.displayData;
-       //console.log(this.displayData);
-      // console.log(this.data.births);
-      // console.log(currentDate);
-     
     })
   }
   getDeathData(){
-   // console.log("get Death data");
     let currentDate=new Date();
     this._apiservice.getDeathData(currentDate).subscribe(res=>{
     this.data=res;

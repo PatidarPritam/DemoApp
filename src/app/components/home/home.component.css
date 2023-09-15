@@ -1,22 +1,15 @@
-
 .container{
     display: flex;
     
 }
-/* .vertical{
-    display: flex;
-    flex-direction: column;
-    background-color: aqua;
-} */
 
 .onThisDay{
     background-color: lightblue;
-    /* height: 400px; */
     width: 400px; 
     border-radius: 10px;
     margin-left:20px;
     margin-top: 20px;
-    /* display: flex; */
+    
 }
 .announcement{
     background-color: lightblue;
@@ -37,12 +30,10 @@
     margin-top: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
-    /*overflow:auto*/
 
 }
 .recommendedTopics{
     background-color: cyan;  
-    /* height:200px ; */
     padding: 10px 0;
     border-radius: 10px;
     margin-top:20px ;

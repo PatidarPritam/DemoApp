@@ -17,11 +17,9 @@ export class AnnouncementComponent {
      this.getAnnouncement();
     }
     getAnnouncement(){
-    //console.log("get Announcement data");
-    
      this._apiservice.getAnnouncement().subscribe(res=>{
      this.data=res;
- //    console.log(res);
+
      for(let i=0;i<this.data.announce.length;i++){
       let AnnouncementVo = {
         text:String,
@@ -30,7 +28,7 @@ export class AnnouncementComponent {
       this.displayData.push(AnnouncementVo);
    }
        this.displayData;
-      // console.log(this.displayData);
+      
       })
   }
   

@@ -1,23 +1,10 @@
 <p>Today's Birth!</p>
-
-<!-- <div>
-    <ul *ngFor="let item of displayData">
-        <li> <img src={{item.thumbnail}} alt="Image not found" width="50px" height="50px"> {{item.name}} </li>
-        <li>{{item.description}}  </li>
-    </ul>
-<p>Today's Death!</p>
-    <ul *ngFor="let item of displayDeathData">
-        <li> <img src={{item.thumbnail}} alt="Image not found" width="50px" height="50px">  {{item.name}}   </li>
-        <li>{{item.description}}  </li>
-    </ul>
-</div> -->
-
 <div *ngFor="let item of displayData" class="container">
      <img src={{item.thumbnail}} alt="Image not found" class="thumbnail">
      <div class="content">
-       <ul> <li> {{item.name}}</li>
-        <li> {{item.description}}</li>
-    </ul>
+         <ul> <li> {{item.name}}</li>
+         <li> {{item.description}}</li>
+         </ul>
      </div>
 </div>
 
@@ -25,8 +12,8 @@
 <div *ngFor="let item of displayDeathData" class="container">
     <img src={{item.thumbnail}} alt="Image not found" class="thumbnail">
     <div class="content">
-      <ul> <li> {{item.name}}</li>
-       <li> {{item.description}}</li>
-   </ul>
+        <ul> <li> {{item.name}}</li>
+        <li> {{item.description}}</li>
+        </ul>
     </div>
 </div>
