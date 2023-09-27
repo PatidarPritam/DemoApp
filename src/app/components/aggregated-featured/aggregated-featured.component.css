@@ -1,6 +1,21 @@
 body{
     font-family: "Calibri";
+    
     }
+.container{
+    display: flex;
+} 
+
+.thumbnail{
+    height: 70px;
+    width: 70px;
+    border-radius: 10px;
+    margin-top: 10px;
+ 
+}
+.margin{
+    margin-left: 40px;
+}
 .truncate-text{
     overflow:hidden;
     display: -webkit-box;

@@ -57,7 +57,7 @@ export class OnThisDayComponent {
       this.displayDeathData;
   })
   }
-      
+   
 }
 
 

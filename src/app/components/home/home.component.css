@@ -1,19 +1,17 @@
 .container{
     display: flex;
-    
 }
-
 .onThisDay{
     background-color: lightblue;
     width: 400px; 
     border-radius: 10px;
     margin-left:20px;
     margin-top: 20px;
-    
 }
+
 .announcement{
     background-color: lightblue;
-    height: 280px; 
+    height: 90px; 
     width:400px; 
     overflow:auto;
     margin-left: 20px;

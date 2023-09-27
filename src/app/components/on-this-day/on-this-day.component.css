@@ -1,6 +1,6 @@
 p{
-    padding-top: 10px;
-    text-align: center;
+    padding-top: 20px;
+    margin-left: 10px;
     font-weight: bold;
     font-family: "Calibri"
 }
@@ -12,15 +12,15 @@ li{
 .container{
     display: flex;
     align-items: center;
+
 }
 .thumbnail{
-    margin-left: 20px;
-    flex: 1;
-    height: 50px;
-    width: 50px;
-    object-fit: contain;
-    
-}
+    margin-left: -20px;
+    height: 70px;
+    width: 70px;
+    border-radius:10px;
+    object-fit: contain; 
+} 
 .content{
     flex:2;
     margin-right: 20px;

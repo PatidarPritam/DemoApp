@@ -10,7 +10,7 @@ import { AnnouncementComponent } from './components/announcement/announcement.co
 import { AggregatedFeaturedComponent } from './components/aggregated-featured/aggregated-featured.component';
 import { RecommendedListOfTopicsComponent } from './components/recommended-list-of-topics/recommended-list-of-topics.component';
 
-import {HttpClientModule} from  '@angular/common/http';
+import {HttpClientModule} from  '@angular/common/http'; // for service file
 import { ViewPageComponent } from './components/view-page/view-page.component';
 import { HomeComponent } from './components/home/home.component'; // change
 @NgModule({
