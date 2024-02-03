@@ -12,7 +12,10 @@ import { RecommendedListOfTopicsComponent } from './components/recommended-list-
 
 import {HttpClientModule} from  '@angular/common/http'; // for service file
 import { ViewPageComponent } from './components/view-page/view-page.component';
-import { HomeComponent } from './components/home/home.component'; // change
+import { HomeComponent } from './components/home/home.component';
+import { ContactUsComponent } from './components/contact-us/contact-us.component';
+import { AboutUsComponent } from './components/about-us/about-us.component';
+import { ServicesComponent } from './components/services/services.component'; // change
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,7 +26,10 @@ import { HomeComponent } from './components/home/home.component'; // change
     AggregatedFeaturedComponent,
     RecommendedListOfTopicsComponent,
     ViewPageComponent,
-    HomeComponent
+    HomeComponent,
+    ContactUsComponent,
+    AboutUsComponent,
+    ServicesComponent
 ],
   imports: [
     BrowserModule,

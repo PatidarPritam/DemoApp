@@ -29,13 +29,12 @@ constructor(private _http:HttpClient) { }
 
 
  getAggregated(currentDate:Date){
-      let day =  currentDate.getDate();
-      let month = (currentDate.getMonth() + 1).toString().padStart(2, '0')
-      let year = currentDate.getFullYear();
-     
-      return this._http.get('https://en.wikipedia.org/api/rest_v1/feed/featured/'+year+'/'+month +'/'+ day)
-      
- }
+     let day = currentDate.getDate().toString().padStart(2, '0'); 
+     let month = (currentDate.getMonth() + 1).toString().padStart(2, '0')
+     let year = currentDate.getFullYear();
+     return this._http.get('https://en.wikipedia.org/api/rest_v1/feed/featured/'+year+'/'+month +'/'+ day)
+
+}
 
   getViewPage(name:string){
    
